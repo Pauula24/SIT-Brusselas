@@ -1,0 +1,93 @@
+:root {
+    --cream: #F3F0E8;
+    --black: #111111;
+    --orange: #E85D3F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--black);
+    font-family: 'Inter', sans-serif;
+}
+
+/* PORTADA */
+
+.landing {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* SIT!  título */
+
+.landing h1 {
+    font-size: clamp(140px, 18vw, 220px);
+    line-height: 0.8;
+    font-weight: bold;
+}
+
+/* TAKE A SEAT */
+
+.landing h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+/* FECHA */
+
+.landing p {
+    margin-top: 15px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+/* ENTER */
+
+.enter-btn {
+    display: inline-block;
+    margin-top: 45px;
+    padding: 15px 25px;
+    background-color: var(--black);
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+.enter-btn:hover {
+    background-color: var(--orange);
+}
+
+
+/* MÓVIL */
+
+@media (max-width: 768px) {
+
+    .landing h1 {
+        font-size: 120px;
+    }
+
+    .landing h2 {
+        font-size: 20px;
+    }
+
+}

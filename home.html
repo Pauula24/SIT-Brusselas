@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIT! — Brussels Design Market</title>
+
+    <!--TIPOGRAFÍA ( uso Arial - solo css)-->
+    
+     <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<!-- Body -->
+
+<body>
+
+    <!-- CABECERA -->
+<header>
+
+    <!--Hace que al pinchar el logotipo en home te lleve a el index-->
+    <a href="index.html" class="logo">
+         SIT!
+    </a>
+
+    <!--Botones (claro/oscuro y menú abre/cierra)-->
+
+    <div class="header-actions">
+        <button class="theme-btn" id="themeBtn"> ☾ </button>
+        <button class="menu-btn" id="menuBtn"> ☰ </button>
+    </div>
+
+ </header>
+
+
+ <!--Navegación-->
+
+<nav class="menu" id="menu">
+
+    <a href="#">HOME</a>
+
+    <a href="#festival">
+        <span class="menu-number">01</span> FESTIVAL</a>
+
+    <a href="#experience">
+        <span class="menu-number">02</span> EXPERIENCE</a>
+
+    <a href="#mood">
+        <span class="menu-number">03</span> MOOD</a>
+
+    <a href="#programa">
+        <span class="menu-number">04</span> PROGRAMME</a>
+
+    <a href="#tickets">
+        <span class="menu-number">05</span> TICKETS</a>
+
+    <a href="#contacto">
+        <span class="menu-number">06</span> CONTACT</a>
+
+</nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+<main>
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+<div class="hero-text">
+
+    <p class="small-text">BRUSSELS · 16—18 OCT 2026</p>
+    <h1>SIT!</h1>
+    <p class="subtitle">FESTIVAL OF COMFORT</p>
+    <p class="intro-hero"> A festival to discover, experiment and enjoy design
+        through something as simple as sitting. Discover
+        new ways of experiencing spaces, furniture and
+        comfort.</p>
+
+<div class="location">
+    <p class="description-title">WHERE?</p>
+    <p>GARE MARITIME · Tour & Taxis · Brussels</p>
+    <p>Rue Picard 7, 1000 Brussels</p>
+
+</div>
+
+    <a href="#festival" class="button">DISCOVER →</a>
+
+    </div>
+            <!-- Imagen Principal ( Inicio) -->
+
+    <div class="hero-image">
+    <div class="carousel">
+        <img src="img/Azúl-Negro.jpg" alt="Seat">
+        <img src="img/sillas : sombras.jpg" alt="Design market">
+        <img src="img/blanco:negro.jpg" alt="People">
+        <img src="img/Sillas de colores horizontal.jpg" alt="Colours">
+    </div>
+
+    <!--Pie de carousel-->
+
+         <p class="photo-caption">SIT! BRUSSELS — DESIGN & COMFORT</p>
+    </div>
+
+        </section>
+
+        <!-- TAKE A SEAT -->
+
+       <section id="festival" class="take-seat">
+
+    <div class="section-text">
+
+        <p class="number">01</p>
+        <h2>TAKE A SEAT.</h2>
+        <p class="intro-text">
+            A festival to discover, experiment and enjoy design
+            through something as simple as sitting.</p>
+
+    <div class="festival-description">
+
+            <p class="description-title">WHAT IS SIT!?</p>
+
+            <p>SIT! is a festival about comfort, design and the simple act
+                of sitting. A place to discover new ideas, meet people, try
+                different spaces and experience design in a more relaxed way.</p>
+
+            <p>Talks, workshops, furniture, music and unexpected ways of
+                sitting — all in one place.</p>
+    </div>
+
+    </div>
+
+    <div class="section-image">
+        <img src="img/Personas sentadas.jpeg" alt="Persona disfrutando de una silla de diseño">
+        <!--pie de foto-->
+        <p class="photo-caption"> A MOMENT TO SLOW DOWN AND EXPERIENCE DESIGN.</p>
+    </div>
+
+</section>
+
+
+        <!-- EXPERIENCIA -->
+
+ <section id="experience" class="experience">
+
+    <p class="number">02</p>
+    <h2>SIT / REST / PLAY / MEET</h2>
+
+    <div class="experience-image">
+        <img src="img/Ambiente.jpg" alt="Visitantes en un design market">
+        <p class="photo-caption">SIT / REST / PLAY / MEET — EXPERIENCE DESIGN DIFFERENTLY</p>
+    </div>
+
+    <div class="experience-text">
+
+        <p>SIT! is not just about sitting. It is about what happens
+            when we slow down.</p>
+
+        <p> Sit and discover. Rest and take your time.
+            Play with new ideas. Meet people and share the experience.</p>
+
+        <p>From talks and workshops to furniture, music and unexpected
+            spaces, every moment invites you to experience design differently.</p>
+
+    </div>
+
+</section>
+
+
+        <!-- MOOD -->
+
+<section id="mood" class="mood">
+
+    <p class="number">03</p>
+    <h2>MOOD</h2>
+
+    <div class="mood-buttons">
+            
+   <button data-mood="rest">REST</button>
+   <button data-mood="discover">DISCOVER</button>
+   <button data-mood="play">PLAY</button>
+   <button data-mood="meet">MEET</button>
+
+    </div>
+
+    <div class="mood-result" id="moodResult">
+
+    <div class="mood-image">
+        <img id="moodImage" src="img/Charlas.jpg" alt="Experiencia SIT!">
+    </div>
+
+    <div class="mood-info" id="moodInfo">
+        <p>CHOOSE AN OPTION.</p>
+    </div>
+
+</div>
+
+ </section>
+
+
+        <!-- PROGRAMA -->
+
+<section id="programa" class="programa">
+
+    <p class="number">04</p>
+    <h2>PROGRAMME</h2>
+
+    <div class="programa-list">
+
+<div class="evento">
+    <span>12:00</span>
+    <h3>TRY A SEAT</h3>
+    <p>Discover and try different design pieces.</p>
+</div>
+
+<div class="evento">
+    <span>15:00</span>
+    <h3>MAKE YOUR SEAT</h3>
+    <p>Workshop to create your own piece.</p>
+</div>
+
+<div class="evento">
+    <span>18:00</span>
+    <h3>SLOW DOWN</h3>
+    <p>A space to pause, rest and enjoy.</p>
+</div>
+
+<div class="evento">
+    <span>21:00</span>
+    <h3>SIT! NIGHT</h3>
+    <p>Music, design and connection.</p>
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- TICKETS -->
+
+<section class="tickets-section" id="tickets">
+
+    <span class="section-number">05</span>
+    <h2>TICKETS</h2>
+
+<div class="tickets">
+
+        <!-- DAY PASS -->
+<div class="ticket">
+
+    <div>
+        <h3>DAY PASS</h3>
+
+        <div class="ticket-price"> 25 $
+        </div>
+
+        <p>One-day access to the festival.</p>
+    </div>
+        <div class="ticket-bottom">
+
+            <span>TICKETS</span>
+
+            <div class="ticket-counter">
+
+            <button class="minus-btn" data-ticket="day"> − </button>
+
+            <span id="dayQuantity">0</span>
+
+            <button class="plus-btn" data-ticket="day">  + </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        <!-- FULL FESTIVAL -->
+    <div class="ticket">
+
+        <div>
+            <h3>FULL FESTIVAL</h3>
+
+             <div class="ticket-price"> 45 $ </div>
+
+            <p>Full access for all three days.</p>
+
+        </div>
+
+            <div class="ticket-bottom">
+
+                <span>TICKETS</span>
+
+                <div class="ticket-counter">
+
+                <button class="minus-btn" data-ticket="full"> − </button>
+
+                <span id="fullQuantity">0</span>
+
+                <button class="plus-btn" data-ticket="full"> + </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        <!-- VIP -->
+    <div class="ticket vip-ticket">
+
+        <div>
+        <h3>VIP</h3>
+
+        <div class="ticket-price"> 70 $ </div>
+
+            <p>Full access + exclusive experiences.</p>
+    </div>
+
+        <div class="ticket-bottom">
+
+            <span>TICKETS</span>
+
+             <div class="ticket-counter">
+
+            <button class="minus-btn" data-ticket="vip"> − </button>
+
+                    <span id="vipQuantity">0</span>
+
+                    <button class="plus-btn" data-ticket="vip"> + </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <!-- TOTAL -->
+
+    <p class="ticket-note"> Maximum 5 tickets per type.</p>
+
+    <div class="tickets-total">
+
+        <div>
+            <span>TOTAL</span>
+            <strong id="totalPrice">0 $</strong>
+        </div>
+
+        <button class="buy-btn"> CONTINUE → </button>
+
+    </div>
+
+
+</section>
+
+
+<!-- MODAL DE ENTRADAS -->
+
+<div class="ticket-modal" id="ticketModal">
+
+    <div class="modal-content">
+
+        <button class="modal-close" id="modalClose"> × </button>
+
+        <span class="modal-small"> YOUR DETAILS </span>
+
+        <h2>YOUR TICKETS</h2>
+
+        <label for="nameInput">NAME</label>
+        <input type="text" id="nameInput" placeholder="Your name">
+
+        <label for="emailInput">EMAIL</label>
+        <input type="email" id="emailInput" placeholder="Your email">
+
+        <div class="modal-summary">
+
+        <div class="modal-ticket" id="modalDayRow">
+            <span>DAY PASS</span>
+            <strong id="modalDay">0</strong>
+        </div>
+
+        <div class="modal-ticket" id="modalFullRow">
+            <span>FULL FESTIVAL</span>
+            <strong id="modalFull">0</strong>
+        </div>
+
+        <div class="modal-ticket" id="modalVipRow">
+            <span>VIP</span>
+            <strong id="modalVip">0</strong>
+        </div>
+
+     </div>
+
+     <!-- Total-->
+
+<div class="modal-total">
+
+        <span>TOTAL</span>
+
+        <strong id="modalTotal"> 0 $ </strong>
+
+</div>
+
+    <!--Botón de compra-->
+        <button class="modal-buy" id="modalBuy"> BUY TICKETS →</button>
+
+        <p id="purchaseMessage"></p>
+
+    </div>
+
+</div>
+
+
+<!-- CONTACTO -->
+
+<section id="contacto" class="contacto">
+
+    <div class="contacto-titulo">
+
+        <p class="number">06</p>
+        <h2>CONTACT.</h2>
+        <p>Do you have any questions about SIT! Brussels?</p>
+
+    </div>
+
+    <form id="contactForm">
+
+        <div class="campo">
+
+            <label for="nombre"> NAME</label>
+            <input 
+                type="text" 
+                id="nombre"
+                name="nombre"
+                placeholder="Your name">
+
+        </div>
+
+         <div class="campo">
+
+            <label for="email">EMAIL</label>
+            <input 
+                type="email" 
+                id="email"
+                name="email"
+                placeholder="your@email.com">
+
+        </div>
+
+        <div class="campo">
+
+            <label for="mensaje">MESSAGE</label>
+            <textarea 
+                id="mensaje"
+                name="mensaje"
+                placeholder="Write your message...">
+            </textarea>
+
+        </div>
+
+        <button type="submit"   class="send-btn"> SEND → </button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+
+    </main>
+
+    <!-- PIE -->
+     
+    <footer>
+        <p> SIT! — BRUSSELS DESIGN MARKET</p>
+        <p>16—18 OCT 2026</p>
+    </footer>
+
+  <!-- CONEXIÓN CON JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
